@@ -117,10 +117,7 @@
 *Detection Logic*
 
 
-
 *The current version detects a potential brute-force attack when:*
-
-
 
 *the same source IP address*
 
@@ -130,87 +127,9 @@
 
 *within 60 seconds*
 
-
-
-*Example:*
-
-
-
-*\[HIGH] BRUTE-FORCE ATTACK DETECTED*
-
-*Source IP: 192.168.1.10*
-
-*Target user: admin*
-
-*Failed attempts: 5*
-
-*Time window: 16 seconds*
-
 *SQL Analysis*
-
-
 
 *Security events are stored in a SQLite database and analyzed using SQL queries.*
 
 
-
-*How to Run*
-
-
-
-*Python 3 is required.*
-
-
-
-*Clone the repository and enter the project directory:*
-
-
-
-*git clone https://github.com/Francesca-Pizzichemi/SecLogAnalytics.git*
-
-*cd SecLogAnalytics*
-
-
-
-*Run the application:*
-
-
-
-*py main.py*
-
-
-
-*On systems where Python is invoked using python:*
-
-
-
-*python main.py*
-
-
-
-*No external Python packages are required.*
-
-
-
-*Future Improvements*
-
-
-
-*Possible future improvements include:*
-
-
-
-*additional threat detection rules*
-
-*suspicious successful-login detection*
-
-*configurable detection thresholds*
-
-*support for larger log datasets*
-
-*exportable security reports*
-
-*visualization of security statistics*
-
-*support for additional log formats*
 
