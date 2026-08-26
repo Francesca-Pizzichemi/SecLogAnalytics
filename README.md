@@ -34,20 +34,6 @@
 
 
 
-*## Technologies*
-
-
-
-*- Python*
-
-*- SQL*
-
-*- SQLite*
-
-*- Python `sqlite3`*
-
-*- Python `datetime`*
-
 
 
 *## Project Structure*
